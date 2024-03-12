@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(154, 89, 214);
+    color: blanchedalmond;
+    margin: 80;
+}
+article{
+     float: left;
+    padding: 20px;
+    margin-left: 30px;
+}
+nav{
+    width: 50%;
+   margin: auto;
+    margin: top;
+    clear: both;
+}
+nav>ul>li{
+    list-style: none;
+    display: inline;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    background-color: rgb(235, 115, 165);
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+}
+form > label{
+    display: block;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 30px;
+}
+form> button{
+    display: block;
+    margin-top: 30px;
+    font-size: 15px;
+    width: 80px;
+    margin-left: 100px;
+    height: 30px;
+    background-color: rgb(226, 102, 102);
+}
+form{
+    width: 100%;
+    margin: auto;
+    height: 100%;
+}
+
+form>input{
+    width: 50%;
+    height: 25px;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+form>phone number{
+    width: 30%;
+    height: 25px;
+    margin-left: 20px;
+}
